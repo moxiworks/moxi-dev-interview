@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker volume create ruby-bundle-cache
+d/run bin/setup "$@"
+d/run chown -R $(id -u):$(id -g) /rails
