@@ -6,7 +6,7 @@ _(See [INTERVIEW README](./INTERVIEW_README.md))_
 
 **Stack**
 
-- Ruby 3.2.1
+- Ruby 3.2.0
 - Rails 7.0.4
 - sqlite
 - RSpec/FactoryBot
