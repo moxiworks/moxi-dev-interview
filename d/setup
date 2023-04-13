@@ -1,5 +1,6 @@
 #!/bin/bash
 
+docker build -t rails:3.2.0 ${PWD}/d
 docker volume create ruby-bundle-cache
 d/run bin/setup "$@"
 d/run chown -R $(id -u):$(id -g) /rails
